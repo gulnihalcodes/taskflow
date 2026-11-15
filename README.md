@@ -31,10 +31,10 @@ Her görevde `id`, `title`, `description`, `assignee`, `status` ve `priority` bu
 
 ## Postman testleri
 
-1. Sunucuyu açık tut ve `postman/TaskFlow.postman_collection.json` dosyasını Postman’e içe aktar.
+1. Sunucuyu açık tut ve `TaskFlow.postman_collection.json` dosyasını Postman’e aktar.
 2. **TaskFlow - CRUD Testleri** koleksiyonundaki beş isteği sırayla açıp her biri için **Send** düğmesine bas.
 3. İlk istek görev numarasını koleksiyona kaydeder. Detay, güncelleme ve silme istekleri bu numarayı kullanır.
-4. Her başarılı istekte yöntem, adres, HTTP sonucu ve yanıt gövdesi görünürken ekran görüntüsü al. Görselleri `screenshots/` klasörüne kaydet.
+4. Her başarılı istekte yöntem, adres, HTTP sonucu ve yanıt gövdesi görünürken ekran görüntüsü al. Görselleri aşağıdaki dosya adlarıyla kaydet.
 
 | Sıra | İstek | Beklenen sonuç | Görsel adı |
 | --- | --- | --- | --- |
@@ -46,4 +46,4 @@ Her görevde `id`, `title`, `description`, `assignee`, `status` ve `priority` bu
 
 ## Teslim dosyaları
 
-Tek herkese açık GitHub reposunda kaynak kodu, README’yi, `docs/` içindeki proje tanıtımını ve kurulum notunu, `screenshots/` içindeki beş gerçek Postman test görüntüsünü bulundur. Formdaki ilgili alanlara iki PDF’yi, test görüntülerini ve GitHub bağlantısını ekle.
+Tek herkese açık GitHub reposunda kaynak kodu, README’yi, `TaskFlow_Proje_Tanitimi.pdf` ve `TaskFlow_Kurulum_Notu.pdf` belgelerini ve beş Postman ekran görüntüsünü bulundur. Formdaki ilgili alanlara iki PDF’yi, test görüntülerini ve GitHub bağlantısını ekle.
